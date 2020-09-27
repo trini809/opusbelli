@@ -32,10 +32,10 @@
 
 		<header id="site-header" class="header-footer-group" role="banner">
 
-			<div class="section-inner">
+			<div class="container">
         <div class="row logo">
           <div class="col-sm-6">
-            <a href="index.php"><img src="http://d7h.ae7.myftpupload.com/wp-content/uploads/2020/09/OpusBelli-S.png" id="site-logo" /></a>
+            <a href="/"><img src="http://d7h.ae7.myftpupload.com/wp-content/uploads/2020/09/OpusBelli-S.png" id="site-logo" /></a>
           </div>
           <div class="col-sm-6 switch-elem">
             <div>Current Mode</div>
@@ -58,7 +58,7 @@
 
 		<div id="menu-container">
       <nav id="navigation" class="navbar navbar-expand-lg opus-nav">
-        <div class="section-inner">
+        <div class="container">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon fas fa-bars"></span>
           </button>

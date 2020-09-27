@@ -11,7 +11,7 @@ function my_bootstrap_include() {
   wp_deregister_script('jquery');
 	wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js', array(), null, false);
   wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '-child/assets/bootstrap/bootstrap.4.4.1.min.js' );
-  wp_enqueue_script( 'lp-script', get_template_directory_uri() . '-child/js/lp-script.js', array(), null, true );
+  wp_enqueue_script( 'lp-script', get_template_directory_uri() . '-child/js/lp-script.js', array(), '1.0.1', true );
 }
 add_action( 'wp_enqueue_scripts', 'my_bootstrap_include');
 

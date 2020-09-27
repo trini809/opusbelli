@@ -14,7 +14,7 @@
 ?>
 
 		<footer>
-			<div class="section-inner">
+			<div class="container">
 				<div class="row">
 					<div class="col-sm-8 rights-reserved">
 						&copy; Copyright <?php echo date('Y'); ?> Opus Belli - Your Information Technologies Partner. All rights reserved.
@@ -25,13 +25,13 @@
 								<span class="to-the-top-long">
 									<?php
 									/* translators: %s: HTML character for up arrow. */
-									printf( __( 'To the top %s', 'twentytwenty' ), '<span class="arrow" aria-hidden="true">&uarr;</span>' );
+									printf( __( 'To the top %s', 'twentytwenty' ), '<i class="far fa-arrow-alt-circle-up"></i>' );
 									?>
 								</span><!-- .to-the-top-long -->
 								<span class="to-the-top-short">
 									<?php
 									/* translators: %s: HTML character for up arrow. */
-									printf( __( 'Up %s', 'twentytwenty' ), '<span class="arrow" aria-hidden="true">&uarr;</span>' );
+									printf( __( 'Up %s', 'twentytwenty' ), '<i class="far fa-arrow-alt-circle-up"></i>' );
 									?>
 								</span><!-- .to-the-top-short -->
 							</a><!-- .to-the-top -->
