@@ -26,6 +26,10 @@ get_header();
 
 					<?php
 
+					if ( ! is_search() ) {
+						get_template_part( 'template-parts/lp-featured-image' );
+					}
+
 					if ( is_singular() ) {
 						the_title( '<h1 class="entry-title">', '</h1>' );
 					} else {
@@ -36,11 +40,6 @@ get_header();
 
 				</div>
 
-				<?php
-					if ( ! is_search() ) {
-						get_template_part( 'template-parts/featured-image' );
-					}
-				?>
 
 				<div class="container">
 					<div class="row">

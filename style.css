@@ -34,14 +34,16 @@ body {
 h1.entry-title {
   font-size: 44px;
   font-weight: 600;
-  margin: 0 auto 20px;
+  margin: 50px auto 20px;
 }
 #site-logo {
   width: 50%;
 }
+#site-header {
+  background-color: inherit;
+}
 article {
-  margin: 30px auto 160px;
-  padding: 20px 0;
+  margin: 0 auto 160px;
 }
 
 /* header */
@@ -128,8 +130,16 @@ input:checked + .slider:before {
   border-bottom: 2px solid #fff;
 }
 .menu-item a:hover {
-  border-bottom: 2px solid #f05423;
+  border-bottom: 2px solid #f05423 !important;
 }
+
+/*  page featured image   */
+.featured-img-container {
+  height: 450px;
+  overflow: hidden;
+  border-bottom: 8px solid #d0d0d0;
+}
+
 
 /* footer */
 footer {
@@ -163,4 +173,7 @@ footer {
 .alignfull {
   margin-top: 0;
   margin-bottom: 0;
+}
+.wp-block-separator {
+  margin: 50px auto !important;
 }
